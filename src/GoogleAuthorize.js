@@ -65,6 +65,7 @@ class GoogleAuthorize extends Component {
       ux_mode:                uxMode,
       redirect_uri:           redirectUri,
       include_granted_scopes: true,
+      response_type:          responseType,
       discoveryDocs,
       prompt,
       scope,
